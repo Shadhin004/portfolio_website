@@ -1,0 +1,189 @@
+{% extends 'base.html' %}
+{% block content %}
+
+{% load static %}
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.6">
+    <title>Shadhin Khan</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/carousel/">
+
+      <link href='https://fonts.googleapis.com/css?family=Didact Gothic' rel='stylesheet'>
+
+
+
+         <!-- Bootstrap core CSS -->
+<link href="/docs/4.4/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Favicons -->
+<link rel="apple-touch-icon" href="/docs/4.4/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/docs/4.4/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/4.4/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/4.4/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/4.4/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c">
+<link rel="icon" href="/docs/4.4/assets/img/favicons/favicon.ico">
+<meta name="msapplication-config" content="/docs/4.4/assets/img/favicons/browserconfig.xml">
+<meta name="theme-color" content="#563d7c">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      body {
+         font-family: 'Didact Gothic';font-size: 22px;
+        }
+
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+
+</header>
+
+<main role="main">
+  <div class="container">
+ <img src="{% static '2.jpg' %}" alt="" width="1100" height="550">
+  </div>
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+<br>
+  <div class="container marketing">
+  <br>
+<div style="text-align:center; color : light blue  "> <h1>EDUCATION</h1><br></div>
+<br>
+    <!-- Three columns of text below the carousel -->
+    <section style="text-align:center;">
+    <div class="row" style="text-align:center;">
+      <div class="col-lg-4">
+        <img src="{% static 'istt_logo.jpg' %}" width="140" height="140" >
+        <h2>B.Sc Engineering</h2>
+        <p><b>Institute of Science Trade and Technology</b> <br>
+        Department of Computer Science and Engineering (C.S.E) <br>
+        Session : 2015-2016
+
+        <br>
+
+        </p>
+
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="{% static 'college_logo.jpg' %}"  width="140" height="140" >
+        <h2>H.S.C</h2>
+        <p>
+        <b>Govt. Bangla College</b> <br>
+        Science <br>
+        Batch : 2015 <br>
+        <i>G.P.A :</i> 4.08
+
+        </p>
+
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="{% static 'school_logo.jpg' %}" width="140" height="140" >
+        <h2>S.S.C</h2>
+        <p><b>Mirpur Sidhanta High School </b> <br>
+        Group : Science<br>
+        Batch : 2013<br>
+        <i> G.P.A :</i> 5.00        </p>
+
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+  </section>
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+    <br>
+<div style="text-align:center; color : light blue "> <h1>PROJECTS</h1><br></div> <br>
+    <div class="row featurette">
+
+      <div class="col-md-7">
+        <h2 class="featurette-heading">TRAVEL BANGLADESH : <span class="text-muted">A travel agency website.</span></h2>
+        <p class="lead">A well-designed travel website with vivid images, offers, and destination information will activate the travel mode for users who view the website. It will give would-be travelers all the information they need to arrange their travel. Here is the link : tusher16.com/shadhin</p>
+      </div>
+      <div class="col-md-5">
+        <img src="{% static 'bdtour.jpeg' %}" width="400" height="400" >
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Portfolio: <span class="text-muted">See by yourself.</span></h2>
+        <p class="lead">This is the website that you are visiting now. I've used django framework for the back-end. I've used bootstrap and some raw HTML & CSS for the front-end. Here is the link : ....</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="{% static 'portfolio.jpg' %}" width="400" height="400" >
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">InnovativeEngineers : <span class="text-muted">Web Application.</span></h2>
+        <p class="lead">This is a Web Application that I've made for the 'Innovative Engineers' company in Internship. I've used django framework for the back-end. I've used bootstrap and some raw HTML & CSS for the front-end. Here is the link : ....</p>
+      </div>
+      <div class="col-md-5">
+        <img src="{% static 'web-application.jpg' %}" width="400" height="400" >
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-right"><a href="#">Back to top</a></p>
+
+  </footer>
+</main>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="/docs/4.4/assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="/docs/4.4/dist/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script></body>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+</html>
+
+
+
+
+
+
+{% endblock %}
